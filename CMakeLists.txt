@@ -25,4 +25,4 @@ add_library(mos6502_cpu ${SRCS_cpu})
 
 #add_compile_definitions(DEBUG_INFO)
 #add_executable(<name> srcs)
-#target_link_libraries(<test> mos6502_cpu)
+#target_link_libraries(<name> mos6502_cpu)
