@@ -979,9 +979,6 @@ namespace mos6502
     bool
     Cpu::is_BRK()
     {
-        if (opcode == 0)
-            return true;
-        
-        return false;
+        return (opcode == 0);
     }
 }
